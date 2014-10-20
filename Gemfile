@@ -7,6 +7,8 @@ gem 'pg'
 gem 'unicorn'
 gem 'foreman'
 
+gem 'therubyracer', platforms: :ruby
+
 gem 'crowdtilt', github: 'Crowdtilt/crowdtilt-gem'
 gem 'devise', '~> 3.2.0'
 gem 'nokogiri'
